@@ -179,7 +179,7 @@ def convert_file(filepath: str, output_folder: str, default_quality: int = DEFAU
     Returns:
         Path to the generated FASTQ file, or empty string on failure.
     """
-    filepath = str(filepath)
+    filepath = str(/workspaces/DL_fall2022/fabc/)
     fmt = detect_format(filepath)
 
     if not fmt:
